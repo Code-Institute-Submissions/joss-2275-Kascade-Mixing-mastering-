@@ -7,8 +7,6 @@
     background: #000;
     font-family: "Chelsea Market";
     text-transform: uppercase;
-    
-    
 }
 
 li {
@@ -21,4 +19,54 @@ ul li a {
 
 .navbar a:hover {
     color: rgba(255, 255, 255, 0.253);
+}
+
+/*---------------------------------footer*/
+
+.footer {
+  position: fixed;
+  padding-top: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.footer a:hover{
+    color: rgba(255, 255, 255, 0.253);
+}
+
+.footer ul li {
+    display: inline-block;
+    color: #fff;
+    
+}
+
+
+
+
+.left-side-content, .right-side-content {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px)
+{   
+     
+        .left-side-content, .right-side-content {
+                   height: 100vh;
+        }
+
+    
+
+}
+
+.left-side-content {
+    background:olive;
+}
+
+.right-side-content {
+    background: grey;
 }
