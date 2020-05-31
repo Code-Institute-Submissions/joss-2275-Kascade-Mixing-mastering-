@@ -1,16 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 /*------------------------------------navbar*/
 
 
 
 .navbar {
     background: #000;
-    font-family: "Chelsea Market";
+    font-family: "Oswald";
     text-transform: uppercase;
 }
 
+@media screen and (max-width:990px){
+    .navbar .container {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .kascadeimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
 li {
-    margin-left: 90px;
+   float: left;
 }
 
 ul li a {
@@ -31,7 +47,9 @@ ul li a {
   width: 100%;
   background-color: #000;
   color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer a:hover{
@@ -41,7 +59,8 @@ ul li a {
 .footer ul li {
     display: inline-block;
     color: #fff;
-    
+    align-items: center;
+    padding-right: 20px;
 }
 
 
@@ -50,6 +69,7 @@ ul li a {
 .left-side-content, .right-side-content {
     height: 50vh;
     width: 100%;
+    font-family: "Oswald";
 }
 
 @media screen and (min-width:768px)
