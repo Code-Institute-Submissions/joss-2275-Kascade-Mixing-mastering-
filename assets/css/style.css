@@ -89,7 +89,8 @@ ul li a {
 }
 
 .right-side-content {
-    background: grey;
+    background: url("../images/Mixer.jpeg") no-repeat; 
+    background-size: 100% auto;
 }
 
 
