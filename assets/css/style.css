@@ -72,7 +72,7 @@ ul li a {
     font-family: "Oswald";
 }
 
-@media screen and (min-width:768px)
+@media screen and (min-width:850px)
 {   
      
         .left-side-content, .right-side-content {
@@ -84,12 +84,12 @@ ul li a {
 }
 
 .left-side-content {
-    background: url("../images/AdobeStock.jpeg") no-repeat; 
+    background: url("../images/mixerleft.png") no-repeat; 
     background-size: 100% auto;
 }
 
 .right-side-content {
-    background: url("../images/Mixer.jpeg") no-repeat; 
+    background: url("../images/mixerright.png") no-repeat; 
     background-size: 100% auto;
 }
 
