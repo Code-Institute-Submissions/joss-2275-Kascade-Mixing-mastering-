@@ -23,6 +23,10 @@
         margin-right: auto;
         width: 50%;
     }
+
+    .row .right-side-content .home-content {
+        text-align: center;
+    }
 }
 
 li {
@@ -93,6 +97,10 @@ ul li a {
     background-size: 100% auto;
 }
 
+.row .right-side-content .home-content {
+    color: #fff;
+    padding: 40px;
+}
 
 /*-------------------------------iframe*/
 
@@ -119,4 +127,29 @@ ul li a {
     padding-top: 40px;
 }
 
+/*------------------------------portfolio*/
+
+.portfolio {
+    
+    height: 100vh;
+    background: url(../images/speakers.jpeg) no-repeat;
+    background-size: cover;
+    
+}
+
+.port-text {
+    color: #fff;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 40px;
+}
+
+.spotify-link {
+    text-align: center;
+    color: #fff;
+}
+
+.spotify-link .fa-spotify a:hover {
+    color: green;
+}
 
