@@ -132,7 +132,7 @@ ul li a {
 .portfolio {
     
     height: 100vh;
-    background: url(../images/speakers.jpeg) no-repeat;
+    background: url(../images/speaker1.jpeg) no-repeat;
     background-size: cover;
     
 }
@@ -144,12 +144,30 @@ ul li a {
     padding: 40px;
 }
 
-.spotify-link {
+.portfolio .spotify-link {
+    
     text-align: center;
+    margin-top: 200px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-spotify {
     color: #fff;
 }
 
-.spotify-link .fa-spotify a:hover {
-    color: green;
+.portfolio .spotify-link a .fa-spotify:hover {
+    color: #1ed761;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
 }
+
+
+
+
 
