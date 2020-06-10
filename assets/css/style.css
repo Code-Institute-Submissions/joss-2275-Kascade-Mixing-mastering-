@@ -95,11 +95,15 @@ ul li a {
 .right-side-content {
     background: url("../images/mixerright.png") no-repeat; 
     background-size: 100% auto;
+
 }
 
-.row .right-side-content .home-content {
+
+
+.home-content {
     color: #fff;
     padding: 40px;
+    text-align: center
 }
 
 /*-------------------------------iframe*/
@@ -132,7 +136,7 @@ ul li a {
 .portfolio {
     
     height: 100vh;
-    background: url(../images/speaker1.jpeg) no-repeat;
+    background: url(../images/speaker2.jpeg) no-repeat;
     background-size: cover;
     
 }
@@ -168,6 +172,42 @@ ul li a {
 }
 
 
+/*-------------------------------------------contact page */
+
+.contact {
+    
+    height: 100vh;
+    background: url(../images/ableton1.jpeg) no-repeat;
+    background-size: 100% auto;
+    
+    
+}
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text-center {
+    color: #fff;
+}
+
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #000000;
+}
 
 
-
+#overflow {
+    overflow: hidden;
+}
