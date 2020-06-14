@@ -68,7 +68,7 @@ ul li a {
 }
 
 
-/*------------------------------------Home page split*/
+/*------------------------------------Home page split----- idea taken from MR.digital--- https://www.youtube.com/watch?v=bh3UAetYkUI----*/
 
 .left-side-content, .right-side-content {
     height: 50vh;
@@ -106,13 +106,19 @@ ul li a {
     text-align: center
 }
 
+
+.right-side-content p {
+    padding: 30px;
+}
+
 /*-------------------------------iframe*/
 
 .iframe-container{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 60%; 
   height: 0;
+  margin-bottom: 40px;
 }
 
 .iframe-container iframe{
@@ -121,11 +127,11 @@ ul li a {
   left: 0;
   width: 100%;
   height: 100%;
+  
 }
 
 .left-side-content h2 {
     text-align: center;
-    font-family:;
     color: #fff;
     padding-bottom: 40px;
     padding-top: 40px;
