@@ -214,6 +214,6 @@ button[type="submit"] {
 }
 
 
-#overflow {
+.overflow {
     overflow: hidden;
 }
