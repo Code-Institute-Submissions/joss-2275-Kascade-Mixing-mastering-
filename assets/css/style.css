@@ -109,7 +109,9 @@ ul li a {
 
 
 .right-side-content p {
-    padding: 30px;
+    padding: 40px;
+    padding-top: 80px;
+    font-size: 20px;
 }
 
 /*-------------------------------iframe*/
