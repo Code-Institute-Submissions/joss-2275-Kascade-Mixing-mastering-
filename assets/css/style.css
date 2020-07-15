@@ -89,13 +89,14 @@ ul li a {
 
 .left-side-content {
     background: url("../images/mixerleft.png") no-repeat; 
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: center center;
 }
 
 .right-side-content {
     background: url("../images/mixerright.png") no-repeat; 
-    background-size: 100% auto;
-
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -103,8 +104,8 @@ ul li a {
 .home-content {
     color: #fff;
     padding: 40px;
-    text-align: center
-}
+    text-align: center;
+}   
 
 
 .right-side-content p {
@@ -144,6 +145,7 @@ ul li a {
     height: 100vh;
     background: url(../images/speaker2.jpeg) no-repeat;
     background-size: cover;
+    background-position: center center;
     
 }
 
@@ -162,6 +164,7 @@ ul li a {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    position: relative;
 }
 
 .fa-spotify {
@@ -184,8 +187,8 @@ ul li a {
     
     height: 100vh;
     background: url(../images/ableton1.jpeg) no-repeat;
-    background-size: 100% auto;
-    
+    background-size: cover;
+    background-position: center center;
     
 }
 
@@ -214,6 +217,4 @@ button[type="submit"] {
 }
 
 
-.overflow {
-    overflow: hidden;
-}
+
