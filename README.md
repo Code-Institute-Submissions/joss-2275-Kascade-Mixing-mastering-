@@ -1,18 +1,20 @@
-this site is for users in a potentially up an coming band/artist looking 
-to record their ideas and have them professionally mixed and mastered.
-they may have a look at the previous work the producer has done and a way to contact him.
-
-USER STORIES - 
-
--as an rock/metal artist i want to find a producer to record my music "home page/portfolio page"
-
--i want to view all the previous work said producer has done and the artists they have worked with "portfolio page"
-
--i would like to contact said producer to work with in the future "contact page/footer links to external sites"
-
--this site would mainly be new visitors as people returning would likely contact the producer directly rather than through the site. HOWEVER, as a returning visitor the main page will always have the latest work/mix displayed for any user to see.
 
 
+ USER STORIES -
+
+ Fist time visitor-
+
+ -as a first time visitor, i want to understand the main purpose of the site.
+ -as a first time visitor, i want to be able to easily navigate through the sites pages.
+ -as a first time visitor, i want to find out more about what work has been done before using the service 
+ and aquire links to any other social media they might use to verify their validity
+
+ returning visitor- 
+
+ -as a returning visitor, i want to find any new tracks the producer has worked on.
+ -as a returning visiotr, i want an easy way to contact the producer, whether through alternative social media or other.
+
+ 
 
 -features: simple NAV bar. footer nav to external sites. responsive on most devices. a few interactive elements, but not much. 
 home page with youtube example of produced song, portfolio page with personal statement and link to spotify for all previous work, contact page with form box to contact.
